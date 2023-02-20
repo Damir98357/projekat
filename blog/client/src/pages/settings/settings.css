@@ -1,0 +1,103 @@
+.settings {
+    display: flex;
+  }
+  
+  .settings-wrapper {
+    flex: 9;
+    padding: 20px;
+  }
+  
+  .settings-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .settings-update-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+  }
+  
+  .settings-delete-title {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settings-profile-picture {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .settings-profile-picture > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .settings-profile-picture-icon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    background-color: lightcoral;
+    cursor: pointer;
+  }
+  
+  .settings-form > label {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .settingsPPInput {
+    width: 30%;
+  }
+  
+  .settings-form > input {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .settings-submit {
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .settings-submit:hover {
+    background-color: rgb(1, 114, 114);
+  }
+
+  .settings-success-alert {
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+  }
